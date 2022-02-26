@@ -1,0 +1,11 @@
+# User Constraint File for NOT gate implementation on Mimas V2
+
+# Onboard LEDs
+NET "B" LOC = T18;
+
+# Push Button Switches.
+# Internal pull-ups need to be enabled since
+# there is no pull-up resistor available on board
+NET "A" PULLUP;
+
+NET "A" LOC = M16;
